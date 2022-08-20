@@ -1,0 +1,410 @@
+.navbar{
+    font-family: 'Courier Prime';
+    font-weight: 600;
+}
+
+.navbar-brand{
+    font-size: 24px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #5500ff !important;
+}
+
+.navbar-nav {
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.nav-item{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav .active{
+    background-color: #5500ff;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.navbar-nav a{
+    border-radius: 10px;
+}
+.navbar-nav a:hover{
+    background-color: #5500ff;
+    color: white !important;
+}
+
+.about-content{
+    height: 100vh;
+    padding-top: 63px;
+    align-items: center;
+}
+.about-content .text-content{
+    width: 60%;
+    margin-left: 30px;
+}
+
+.about-hi{
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.about-jahid{
+    font-family: 'Courier Prime';
+    font-size: 32px;
+    color:#5500ff;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.about-se{
+    font-family: 'Courier Prime';
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.about-detail{
+    font-family: monospace;
+    font-size: 16px;
+    text-align: justify;
+    width: 90%;
+}
+
+.text-content{
+    width: 63%;
+}
+.image-content{
+    width: 30%;
+}
+
+.job-content{
+    padding-top: 10px;
+}
+
+.job-content-1{
+    margin-top: 115px;
+    height: 40vh;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.job-content-1 .row{
+    width: 100%;
+    flex-wrap: nowrap !important;
+}
+.job-title{
+    font-family: 'Courier Prime';
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 24px;
+}
+
+.font-red{
+    color: red;
+}
+
+.job-info{
+    margin-bottom: 24px;
+}
+.job-name,
+.job-data{
+    font-family: 'Courier Prime';
+    font-size: 16px;
+    font-weight: 600;
+    width: 50%;
+}
+
+.job-name{
+    text-align: left;
+}
+
+.job-data{
+    text-align: right;
+}
+
+.job-detail{
+    font-family: 'Courier Prime';
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#aboutLogo{
+    width: 90%;
+    margin-left: 20px;
+}
+
+
+.job-content-2{
+    height: 40vh;
+    align-items: center;
+}
+
+.font-blue{
+    color: #2e5fa0;
+}
+
+.font-light-yellow{
+    color: #ffa973;
+}
+
+.education-title{
+    font-family: 'Courier Prime';
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 24px;
+    height: fit-content;
+}
+
+.education-detail{
+    font-family: 'Courier Prime';
+    font-weight: 600;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    height: 50vh;
+    margin-left: 70px;
+    text-align: center;
+    border: rgb(141, 126, 106) 10px solid;
+}
+
+.education-content{
+    padding-top: 200px;
+    height: 100vh;
+}
+
+.eduLogo{
+    margin-bottom: 24px;
+}
+
+.project-content{
+    padding-top: 5px;
+}
+
+
+.project-content-1{
+    margin-top: 130px;
+    height: 35vh;
+    align-items: center;
+}
+
+.project-content-1 .row{
+    width: 100%;
+    flex-wrap: nowrap !important;
+}
+
+.project-content-2{
+    height: 35vh;
+    align-items: center;
+}
+
+.project-content-2 .row{
+    width: 100%;
+    flex-wrap: nowrap !important;
+}
+.project-content-3{
+    height: 35vh;
+    align-items: center;
+}
+
+.project-content-3 .row{
+    width: 100%;
+    flex-wrap: nowrap !important;
+}
+
+.project-title{
+    font-family: 'Courier Prime';
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 24px;
+}
+
+.font-red{
+    color: red;
+}
+
+.project-info{
+    font-family: 'Courier Prime';
+    font-size: 24px;
+    font-weight: 600;
+    color: #2e5fa0;
+    margin-bottom: 24px;
+}
+
+.project-detail{
+    font-family: 'Courier Prime';
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 24px;
+}
+
+.project-link button{
+    font-family: 'Courier Prime';
+    font-size: 16px;
+    font-weight: 600;
+    color: #2e5fa0;
+    background-color: white;
+    border-radius: 5px;
+    border: #2e5fa0 2px solid;
+}
+
+.project-link button:hover{
+    font-family: 'Courier Prime';
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2e5fa0;
+    border-radius: 5px;
+    border: #2e5fa0 2px solid;
+}
+
+.project-link a{
+    text-decoration: none;
+}
+
+
+
+.project-text{
+    width: 70%;
+}
+
+.project-content-2 .project-text{
+    width: 70%;
+}
+
+.projectLogo{
+    width: 100%;
+}
+
+.skill-title{
+    font-family: 'Courier Prime';
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 24px;
+    height: fit-content;
+}
+
+.skill-content{
+    padding-top: 200px;
+    height: 100vh;
+}
+
+.contact-content{
+    margin-top: 200px;
+    height: 100vh;
+    align-items: center;
+}
+
+.contact-content-2 .row{
+    width: 100%;
+    flex-wrap: nowrap !important;
+}
+
+.contact-text{
+    width: 48%;
+}
+
+.contact-text a{
+    text-decoration: none;
+}
+
+.contact-title{
+    font-family: 'Courier Prime';
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 24px;
+}
+
+.contact-detail{
+    font-family: 'Courier Prime';
+    font-weight: 600;
+    font-size: 21px;
+    color: #5500ff;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.contact{
+    align-items: center;
+    text-align: center;
+}
+
+
+.skill-container button{
+    font-family: 'Courier Prime';
+    font-weight: 800;
+    background-color: white;
+    color: #5500ff;
+    border: #2e5fa0 5px solid;
+    border-radius: 15px;
+    margin-left: 24px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.skill-container button:hover{
+    font-family: 'Courier Prime';
+    font-weight: 800;
+    background-color: #2e5fa0;
+    color: white;
+    border: #2e5fa0 5px solid;
+    border-radius: 15px;
+    margin-left: 24px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.skill-container div{
+    margin-bottom: 24px;
+}
+
+
+.skill-w1{
+    width: 60px;
+}
+
+.skill-w2{
+    width: 120px;
+}
+
+.skill-w3{
+    width: 180px;
+}
+
+.skill-w4{
+    width: 210px;
+}
+
+.skill-w5{
+    width: 295px;
+}
+
+.skill-h1{
+    height: 60px;
+}
+
+.skill-h2{
+    height: 80px;
+}
+
